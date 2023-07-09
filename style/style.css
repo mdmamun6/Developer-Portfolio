@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
-    font-size: 45px;
+    font-size: 36px;
     font-weight: 700;
     font-family: 'Lato', sans-serif;
 }
@@ -16,13 +16,6 @@ p{
     font-size: 16px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-}
-.header{
-    background-color: #FFF8F3;
-    background-image: url('../img/header_bg.png'), url('../img/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, top left;
-    /* background-size: auto; */
 }
 .container{
     width: 1140px;
@@ -36,6 +29,27 @@ p{
 }
 .col-6{
     width: 50%;
+}
+.btn-primary{
+    color: #fff;
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.section-title{
+    text-align: center;
+}
+/* Banner Start */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../img/header_bg.png'), url('../img/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    /* background-size: auto; */
 }
 .logo{
     color: #181818;
@@ -57,15 +71,6 @@ nav li{
 li a{
     text-decoration: none;
     color: #474747;
-}
-.btn-primary{
-    color: #fff;
-    background: #FD6E0A;
-    font-size: 20px;
-    font-weight: 700;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 35px;
 }
 .banner{
     padding-top: 80px;
@@ -89,3 +94,38 @@ li a{
     width: 500px;
     padding-bottom: 0px;
 }
+/* Banner End */
+
+/* About Me Start */
+.about-me{
+    margin: 130px;
+}
+.about-content{
+    padding: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    justify-content: center;
+}
+.about-content p{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 40px 0px;
+}
+.about-info-div{
+    display: flex;  
+    justify-content: space-between; 
+}
+.about-info{
+    text-align: center;
+}
+.about-info h4{
+    font-size: 18px;
+}
+.about-info p{
+    color: #474747;
+    font-size: 16px;
+    margin-top: -25px;
+}
+/* Section End About Me */

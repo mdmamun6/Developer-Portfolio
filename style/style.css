@@ -187,7 +187,7 @@ li a{
     color: #474747;
     font-size: 22px;
     padding: 20px 0px 15px 0px;
-    border-top: 2px solid #474747;
+    border-top: 2px solid #757575;
 }
 .resume-info h4{
     color: #757575;
@@ -198,3 +198,22 @@ li a{
     color: #757575;
     font-size: 16px;
 }
+/* Resume Section End */
+/* Contact Section Start */
+.contact{
+    background: #FFF8F3;
+    padding: 130px;
+}
+.social-info{
+    text-align: center;
+    padding: 0px 60px;
+}
+.social-info h2{
+    font-weight: 800;
+}
+.social-icon{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+/* Contact Section end */

@@ -129,6 +129,8 @@ li a{
     margin-top: 5px;
 }
 /* Section End About Me */
+
+/* Skill section start here */
 .skill-description{
     margin: 130px;
     text-align: center;
@@ -158,6 +160,41 @@ li a{
     padding: 15px 0px;
 }
 .skills-info p{
+    color: #757575;
+    font-size: 16px;
+    line-height: 26px;
+}
+/* Skills Section End Here! */
+
+/* Resume Section Start Here! */
+.resume-div{
+    display: flex;  
+    justify-content: space-between; 
+    gap: 24px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.resume-info{
+    text-align: left;
+    padding: 30px;
+}
+.resume-info h2{
     color: #474747;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.resume-info h3{
+    color: #474747;
+    font-size: 22px;
+    padding: 20px 0px 15px 0px;
+    border-top: 2px solid #474747;
+}
+.resume-info h4{
+    color: #757575;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.resume-info p{
+    color: #757575;
     font-size: 16px;
 }

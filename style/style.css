@@ -6,6 +6,7 @@ body{
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
+    width: 100%;
 }
 h1,h2,h3,h4,h5,h6{
     font-size: 36px;
@@ -29,6 +30,9 @@ p{
 }
 .col-6{
     width: 50%;
+}
+.col-3{
+    width: 33.33%;
 }
 .btn-primary{
     color: #fff;
@@ -228,3 +232,10 @@ textarea {
     width: 100%;
 }
 /* Contact Section end */
+/* Footer section Start Here! */
+/* .footer{
+    color: #FFF;
+    background: #FD6E0A;
+    padding: 130px;
+} */
+/* Footer Section end Here! */
